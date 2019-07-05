@@ -2,8 +2,20 @@ h1 {
   color: hsla(240, 100%, 100%, 0.5);
 }
 
+h1 {
+  position: fixed;
+  left: 220px;
+  top: 300px;
+  z-index: -1;
+}
+
 p {
   color: red;
+}
+
+a {
+  position: relative;
+  z-index: 1;
 }
 
 body {
